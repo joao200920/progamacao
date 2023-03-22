@@ -38,3 +38,13 @@ a{
     padding: 10px;
     background-color: blueviolet;
 }
+
+.imagem{
+    width: 400px;
+    height: auto;
+
+}
+
+body{
+    background-color: rgb(230, 230, 230);
+}
