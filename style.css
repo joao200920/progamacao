@@ -42,9 +42,22 @@ a{
 .imagem{
     width: 400px;
     height: auto;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.767);
 
 }
+.legenda{
+    text-align: center;
+    padding: 5px;
+}
 
+.texto{
+    width: 100vh;
+    padding: 10px;
+    text-align: justify;
+    display: flex;
+    align-items: center;
+}
 body{
     background-color: rgb(230, 230, 230);
 }
@@ -58,10 +71,27 @@ body{
 .item{
     display: flex;
     align-items: flex-start;
-    border: 2px solid black;
     margin: 10px;
 }
 .paragrafo{
-    padding: 10px;
-    text-align: justify;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Raleways', sans-serif;
+    color: rgb(46, 46, 180)
+}
+.footer{
+    background-color: rgb(241, 234, 234);
+    padding: 15px;
+    color: black;
+    font-size: 30px;
+}
+.redesSociais{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.redeLogo{
+    margin: 10px;
+    padding: 5px;
+    width: 30px;
+    height: auto;
 }
